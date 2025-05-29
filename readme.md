@@ -5,4 +5,4 @@ tira-cli code-submission \
 	--task generative-ai-authorship-verification-panclef-2025 \
 	--dataset pan25-generative-ai-detection-smoke-test-20250428-training \
 	--mount-hf-model kkkkl5/asdkklkk \
-	--command 'python3 task1.2_int.py --input $inputDataset --output $outputDir' --dry-run
+	--command 'python3 task1.2_int.py $inputDataset/dataset.json $outputDir/predictions.jsonl' --dry-run
